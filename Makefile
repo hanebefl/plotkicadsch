@@ -1,7 +1,7 @@
 .PHONY: build clean test install uninstall distrib publish release
 
 build:
-	dune build
+	dune build @DEFAULT
 
 clean:
 	dune clean
